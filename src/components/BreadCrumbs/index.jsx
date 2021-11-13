@@ -7,14 +7,14 @@ export const BreadCrumbs = () => {
     return (
         <div className="row breadcrumb__custom">
             <div className="col breadcrumb__custom__links">
-                <a href="#">
+                <a href="/">
                     Card Actions
                     <img src={home} alt="home logo" />
                 </a>
                 <img src={doubleArrow} alt="double arrow icon" />
-                <a href="#">eCommerce</a>
+                <a href="/">eCommerce</a>
                 <img src={doubleArrow} alt="double arrow icon" />
-                <a href="#">Eletronics</a>
+                <a href="/">Eletronics</a>
             </div>
             <div className="col breadcrumb__custom__settings">
                 <img src={settings} alt="settings icon" />

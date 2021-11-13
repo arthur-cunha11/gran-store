@@ -142,3 +142,75 @@ p {
 .breadcrumb__custom__settings img {
   cursor: pointer;
 }
+
+.filter span,
+.filter__options h2 {
+  font-size: 18px;
+}
+
+.filter__options {
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.135216);
+  margin: 20px 0;
+  padding: 25px 32px;
+}
+
+.filter__options h2 {
+  font-weight: 600;
+}
+
+.filter__options .form-check {
+  display: flex;
+  margin-top: 18px;
+}
+
+.filter__options .form-check input {
+  margin-right: 10px;
+}
+
+.filter__options .form-check p {
+  margin-left: auto;
+}
+
+.filter__options__slider {
+  border-bottom: 1px solid #d6d6d6;
+  border-top: 1px solid #d6d6d6;
+  margin: 25px 0;
+  padding: 34px 0;
+}
+
+.filter__options__slider > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.filter__options__category,
+.filter__options__brand {
+  border-bottom: 1px solid #d6d6d6;
+  margin-bottom: 25px;
+  padding-bottom: 34px;
+}
+
+.filter__options__rating h2 {
+  margin-bottom: 18px;
+}
+
+.filter__options__rating div {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.filter__options__rating div p:last-child {
+  margin-left: auto;
+}
+
+.default-button {
+  background: #696969;
+  border-radius: 8px;
+  border: 1px solid #696969;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.135216);
+  color: #ffff;
+  height: 56px;
+  width: 100%;
+}

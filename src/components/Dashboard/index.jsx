@@ -7,13 +7,11 @@ export const Dashboard = () => {
             <Navbar />
             <BreadCrumbs />
             <div className="row">
-                <div className="col">
+                <div className="col-3 filter">
                     <Filter />
                 </div>
-                <div className="col">
-                    <div className="row"></div>
-                    <div className="row"></div>
-                    <div className="row"></div>
+                <div className="col-9">
+
                 </div>
             </div>
         </>

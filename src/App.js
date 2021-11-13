@@ -13,7 +13,7 @@ const App = () => {
             <VerticalMenu />
           </div>
         )}
-        <div className="col dashboard">
+        <div className="col-10 dashboard">
           <Dashboard />
         </div>
       </div>

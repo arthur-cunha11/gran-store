@@ -1,9 +1,14 @@
 export { AppsMenu } from "./AppsMenu/";
+export { Brand } from "./Brand/";
 export { BreadCrumbs } from "./BreadCrumbs/";
+export { Category } from "./Category/";
 export { Dashboard } from "./Dashboard/";
+export { DashboardMenu } from "./DashboardMenu/";
 export { Filter } from "./Filter/";
 export { FormsMenu } from "./FormsMenu/";
+export { MultiRange } from "./MultiRange/";
 export { Navbar } from "./Navbar/";
+export { Rating } from "./Rating/";
+export { Slider } from "./Slider/";
 export { UiElementsMenu } from "./UiElementsMenu/";
 export { VerticalMenu } from "./VerticalMenu/";
-export { DashboardMenu } from "./DashboardMenu/";
