@@ -248,6 +248,7 @@ p {
 
 .pagination__custom {
   justify-content: center;
+  margin-top: 110px;
 }
 
 .pagination__custom img {
@@ -265,13 +266,22 @@ p {
 }
 
 .page-link {
-  color: #2c2c2c;
   background-color: transparent;
   border: none;
+  color: #2c2c2c;
 }
 
 .page-item.active .page-link {
-  color: #ffff;
   background-color: #686868;
   border-color: #686868;
+  color: #ffff;
+}
+
+.search-result {
+  align-items: center;
+}
+
+.search-result > img {
+  height: 210px;
+  width: 213px;
 }
