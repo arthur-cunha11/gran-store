@@ -1,13 +1,18 @@
 import "./App.css";
 import { VerticalMenu, Dashboard } from "./components";
+import { mobileDevice } from "./utils";
 
 const App = () => {
+  const isMobile = mobileDevice();
+
   return (
-    <div>
+    <div className="wrapper">
       <div className="row">
-        <div className="col">
-          <VerticalMenu />
-        </div>
+        {!isMobile && (
+          <div className="col-2">
+            <VerticalMenu />
+          </div>
+        )}
         <div className="col">
           <Dashboard />
         </div>

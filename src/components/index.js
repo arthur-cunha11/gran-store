@@ -1,5 +1,9 @@
-export { VerticalMenu } from "./VerticalMenu/";
-export { Dashboard } from "./Dashboard/";
-export { Navbar } from "./Navbar/";
+export { AppsMenu } from "./AppsMenu/";
 export { BreadCrumbs } from "./BreadCrumbs/";
+export { Dashboard } from "./Dashboard/";
 export { Filter } from "./Filter/";
+export { FormsMenu } from "./FormsMenu/";
+export { Navbar } from "./Navbar/";
+export { UiElementsMenu } from "./UiElementsMenu/";
+export { VerticalMenu } from "./VerticalMenu/";
+export { DashboardMenu } from "./DashboardMenu/";

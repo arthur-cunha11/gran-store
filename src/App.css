@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.wrapper {
+  padding-left: 23px;
+  padding-top: 31px;
+}
+
+.btn-check:focus + .btn,
+.btn:focus {
+  box-shadow: none;
+}
+
+.dashboard-menu {
+  margin-bottom: 45px;
+  margin-top: 45px;
+}
+
+.btn-group-vertical {
+  align-items: unset;
+  width: 80%;
+}
+
+.btn-group-vertical .row {
+  margin: 45px 0;
+}
+
+.btn-group-vertical .btn {
+  font-size: 15px;
+  text-align: start;
+}
+
+.btn-group-vertical h2 {
+  color: #999999;
+  font-size: 14px;
+  line-height: 36px;
+  margin: 0;
+}
+
+.btn-group-vertical .btn:not(.dashboard-menu .btn) {
+  font-weight: 600;
+}
+
+.btn-group-vertical .btn[aria-expanded="true"] {
+  background-color: #ececec;
+}
+
+.btn-group-vertical .btn[aria-expanded="true"]::after {
+  content: url("../src/img/chevron-down.svg");
+}
+
+.btn-group-vertical .btn[aria-expanded="false"]::after {
+  content: url("../src/img/right-arrow.svg");
+}
+
+.apps-menu,
+.ui-elements-menu {
+  margin-bottom: 45px;
+}
