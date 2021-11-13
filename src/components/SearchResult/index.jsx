@@ -20,7 +20,7 @@ export const SearchResult = () => {
                 </div>
                 <div className="search-result__product__options d-flex flex-column align-items-center justify-content-center">
                     <img className="align-self-end" src={rating} alt="rating icon" />
-                    <strong>$399</strong>
+                    <strong className="product__price">$399</strong>
                     <p className="d-flex align-items-center justify-content-center">
                         <img src={shoppingCart} alt="shopping cart icon" />Free Shipping
                     </p>
@@ -45,7 +45,7 @@ export const SearchResult = () => {
                     </p>
                 </div>
                 <div className="search-result__product__options d-flex flex-column align-items-center justify-content-center">
-                    <strong>$199</strong>
+                    <strong className="product__price">$199</strong>
                     <p className="d-flex align-items-center justify-content-center">
                         <img src={shoppingCart} alt="shopping cart icon" />Free Shipping
                     </p>
@@ -70,7 +70,7 @@ export const SearchResult = () => {
                     </p>
                 </div>
                 <div className="search-result__product__options d-flex flex-column align-items-center justify-content-center">
-                    <strong>$899</strong>
+                    <strong className="product__price">$899</strong>
                     <p className="d-flex align-items-center justify-content-center">
                         <img src={shoppingCart} alt="shopping cart icon" />Free Shipping
                     </p>
@@ -95,7 +95,7 @@ export const SearchResult = () => {
                     </p>
                 </div>
                 <div className="search-result__product__options d-flex flex-column align-items-center justify-content-center">
-                    <strong>$459</strong>
+                    <strong className="product__price">$459</strong>
                     <p className="d-flex align-items-center justify-content-center">
                         <img src={shoppingCart} alt="shopping cart icon" />Free Shipping
                     </p>
@@ -120,7 +120,7 @@ export const SearchResult = () => {
                     </p>
                 </div>
                 <div className="search-result__product__options d-flex flex-column align-items-center justify-content-center">
-                    <strong>$2499</strong>
+                    <strong className="product__price">$2499</strong>
                     <p className="d-flex align-items-center justify-content-center">
                         <img src={shoppingCart} alt="shopping cart icon" />Free Shipping
                     </p>

@@ -16,7 +16,7 @@ export const BreadCrumbs = () => {
                 <img src={doubleArrow} alt="double arrow icon" />
                 <a href="/">Eletronics</a>
             </div>
-            <div className="col breadcrumb__custom__settings d-flex justify-content-end">
+            <div className="col-1 breadcrumb__custom__settings d-flex justify-content-end">
                 <img src={settings} alt="settings icon" />
             </div>
         </div>

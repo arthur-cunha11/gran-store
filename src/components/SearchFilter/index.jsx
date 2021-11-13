@@ -6,7 +6,7 @@ export const SearchFilter = () => {
     return (
         <div className="row">
             <div className="col">
-                <p>7,618 results found in 5ms</p>
+                <p className="result-number">7,618 results found in 5ms</p>
             </div>
             <div className="col search-filter d-flex align-items-center justify-content-end">
                 <div className="dropdown">

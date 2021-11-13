@@ -1,5 +1,3 @@
 export const mobileDevice = () => {
-  return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
-    navigator.userAgent
-  );
+  return matchMedia("(max-width: 1200px)").matches;
 };

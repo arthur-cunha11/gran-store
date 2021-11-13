@@ -321,3 +321,66 @@ a:hover {
   border-color: #686868;
   color: #ffff;
 }
+
+@media screen and (max-width: 992px) {
+  .breadcrumb__custom__links, .btn-group-vertical h2,
+  .navbar__custom__options button, 
+  .navbar__custom__options, 
+  .search-result__product p, 
+  .search-result__product__options button {
+    font-size: 12px;
+  }
+
+  .search-result__product h2 {
+    font-size: 14px;
+  }
+
+  .search-result__product span {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .breadcrumb__custom__links, .btn-group-vertical h2,
+  .navbar__custom__options button, 
+  .navbar__custom__options, 
+  .search-result__product p, 
+  .search-result__product span,
+  .search-result__product__options button {
+    font-size: 8px;
+  }
+
+  .search-result__product h2,
+  .dropdown .btn,
+  .result-number {
+    font-size: 12px;
+  }
+
+  .product__price {
+    font-size: 14px;
+  }
+
+  .breadcrumb__custom__links a:first-child {
+    font-size: 16px;
+  }
+
+  .search-result__product > img {
+    width: 120px;
+  }
+
+  .search-result__product__options > * {
+    margin-bottom: 8px;
+  }
+
+  .search-result__product__options button {
+    padding: 6px 0;
+  }
+
+  .breadcrumb__custom__settings img {
+    width: 20px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+
+}
