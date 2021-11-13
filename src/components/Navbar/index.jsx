@@ -10,7 +10,7 @@ import todo from "../../img/check-square.svg"
 
 export const Navbar = () => {
     return (
-        <div className="row navbar__custom">
+        <div className="row navbar__custom align-items-center">
             <div className="col navbar__custom__icons">
                 <img src={todo} alt="todo icon" />
                 <img src={chat} alt="chat icon" />
@@ -18,7 +18,7 @@ export const Navbar = () => {
                 <img src={calendar} alt="calendar icon" />
                 <img src={star} alt="star icon" />
             </div>
-            <div className="col navbar__custom__options">
+            <div className="col navbar__custom__options d-flex align-items-center justify-content-end">
                 <button type="button">English</button>
                 <img src={bell} alt="bell icon" />
                 <img src={search} alt="search icon" />

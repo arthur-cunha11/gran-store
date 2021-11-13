@@ -8,7 +8,7 @@ export const SearchFilter = () => {
             <div className="col">
                 <p>7,618 results found in 5ms</p>
             </div>
-            <div className="col search-filter">
+            <div className="col search-filter d-flex align-items-center justify-content-end">
                 <div className="dropdown">
                     <button className="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                         Default

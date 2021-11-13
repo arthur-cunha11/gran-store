@@ -6,7 +6,7 @@ export const Rating = () => {
     return (
         <div className="filter__options__rating">
             <h2>Rating</h2>
-            <div>
+            <div className="d-flex">
                 <img src={starFilled} alt="star filled icon" />
                 <img src={starFilled} alt="star filled icon" />
                 <img src={starFilled} alt="star filled icon" />
@@ -15,7 +15,7 @@ export const Rating = () => {
                 <p>& Up</p>
                 <p>8500</p>
             </div>
-            <div>
+            <div className="d-flex">
                 <img src={starFilled} alt="star filled icon" />
                 <img src={starFilled} alt="star filled icon" />
                 <img src={starFilled} alt="star filled icon" />
@@ -24,7 +24,7 @@ export const Rating = () => {
                 <p>& Up</p>
                 <p>3250</p>
             </div>
-            <div>
+            <div className="d-flex">
                 <img src={starFilled} alt="star filled icon" />
                 <img src={starFilled} alt="star filled icon" />
                 <img src={starFilled} alt="star filled icon" />

@@ -9,7 +9,7 @@ export const UiElementsMenu = () => {
     return (
         <div className="row">
             <h2>UI ELEMENTS</h2>
-            <button className="btn" type="button" data-bs-toggle="collapse" data-bs-target="#grid" aria-expanded="false" aria-controls="grid">
+            <button className="btn d-flex align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#grid" aria-expanded="false" aria-controls="grid">
                 <img src={grid} alt=" icon" />
                 <p>Grid</p>
             </button>
@@ -24,7 +24,7 @@ export const UiElementsMenu = () => {
                 <label className="btn" htmlFor="colors">Colors</label>
             </div>
 
-            <button className="btn" type="button" data-bs-toggle="collapse" data-bs-target="#card" aria-expanded="false" aria-controls="card">
+            <button className="btn d-flex align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#card" aria-expanded="false" aria-controls="card">
                 <img src={card} alt=" icon" />
                 <p>Card</p>
             </button>
@@ -39,7 +39,7 @@ export const UiElementsMenu = () => {
                 <label className="btn" htmlFor="table">Table</label>
             </div>
 
-            <button className="btn" type="button" data-bs-toggle="collapse" data-bs-target="#components" aria-expanded="false" aria-controls="components">
+            <button className="btn d-flex align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#components" aria-expanded="false" aria-controls="components">
                 <img src={components} alt=" icon" />
                 <p>Components</p>
             </button>

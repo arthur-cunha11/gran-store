@@ -5,7 +5,7 @@ import ecommerce from '../../img/circle.svg'
 export const DashboardMenu = () => {
     return (
         <div className="row">
-            <button className="btn" type="button" data-bs-toggle="collapse" data-bs-target="#dashboard-menu" aria-expanded="true" aria-controls="dashboard-menu">
+            <button className="btn d-flex align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#dashboard-menu" aria-expanded="true" aria-controls="dashboard-menu">
                 <img src={dashboard} alt="dashboard icon" />
                 <p>Dashboard</p>
             </button>

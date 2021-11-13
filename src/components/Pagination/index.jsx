@@ -4,9 +4,9 @@ import right from "../../img/right.svg"
 
 export const Pagination = () => {
     return (
-        <div className="row pagination__custom">
+        <div className="row pagination__custom justify-content-center">
             <nav aria-label="Page navigation example">
-                <ul className="pagination">
+                <ul className="pagination d-flex align-items-center">
                     <li className="page-item">
                         <a className="page-link" href="/" aria-label="Previous">
                             <img src={left} alt="left arrow icon" />
