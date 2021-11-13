@@ -8,29 +8,131 @@ import shoppingCart from '../../img/shopping-cart.svg'
 export const SearchResult = () => {
     return (
         <div className="row search-result">
-            <img src={product} alt="product" />
-            <div>
-                <h2>Apple Watch Series 4 GPS</h2>
-                <p>By <strong>Apple</strong></p>
-                <p>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
-                    a type specimen book.
-                </p>
+            <div className="search-result__product">
+                <img src={product} alt="product" />
+                <div className="search-result__product__description">
+                    <h2>Apple Watch Series 4 GPS</h2>
+                    <span>By <strong>Apple</strong></span>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+                        a type specimen book.
+                    </p>
+                </div>
+                <div className="search-result__product__options">
+                    <img src={rating} alt="rating icon" />
+                    <strong>$399</strong>
+                    <p>
+                        <img src={shoppingCart} alt="shopping cart icon" />Free Shipping
+                    </p>
+                    <button className="search-result__product__options__button" type="button">
+                        <img src={heart} alt="heart icon" />
+                        WISHLIST
+                    </button>
+                    <button className="default-button" type="button">
+                        <img src={shoppingBag} alt="shopping bag icon" />
+                        ADD TO CART
+                    </button>
+                </div>
             </div>
-            <div>
-                <img src={rating} alt="rating icon" />
-                <strong>$399</strong>
-                <p>
-                    <img src={shoppingCart} alt="shopping cart icon" />Free Shipping
-                </p>
-                <button type="button">
-                    <img src={heart} alt="heart icon" />
-                    WISHLIST
-                </button>
-                <button className="default-button" type="button">
-                    <img src={shoppingBag} alt="shopping bag icon" />
-                    ADD TO CART
-                </button>
+            <div className="search-result__product">
+                <img src={product} alt="product" />
+                <div className="search-result__product__description">
+                    <h2>JBL Speaker</h2>
+                    <span>By <strong>JBL</strong></span>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+                        a type specimen book.
+                    </p>
+                </div>
+                <div className="search-result__product__options">
+                    <strong>$199</strong>
+                    <p>
+                        <img src={shoppingCart} alt="shopping cart icon" />Free Shipping
+                    </p>
+                    <button className="search-result__product__options__button" type="button">
+                        <img src={heart} alt="heart icon" />
+                        WISHLIST
+                    </button>
+                    <button className="default-button" type="button">
+                        <img src={shoppingBag} alt="shopping bag icon" />
+                        ADD TO CART
+                    </button>
+                </div>
+            </div>
+            <div className="search-result__product">
+                <img src={product} alt="product" />
+                <div className="search-result__product__description">
+                    <h2>Apple iPhone X 128GB</h2>
+                    <span>By <strong>Apple</strong></span>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+                        a type specimen book.
+                    </p>
+                </div>
+                <div className="search-result__product__options">
+                    <strong>$899</strong>
+                    <p>
+                        <img src={shoppingCart} alt="shopping cart icon" />Free Shipping
+                    </p>
+                    <button className="search-result__product__options__button" type="button">
+                        <img src={heart} alt="heart icon" />
+                        WISHLIST
+                    </button>
+                    <button className="default-button" type="button">
+                        <img src={shoppingBag} alt="shopping bag icon" />
+                        ADD TO CART
+                    </button>
+                </div>
+            </div>
+            <div className="search-result__product">
+                <img src={product} alt="product" />
+                <div className="search-result__product__description">
+                    <h2>Beats Headphones</h2>
+                    <span>By <strong>Beats</strong></span>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+                        a type specimen book.
+                    </p>
+                </div>
+                <div className="search-result__product__options">
+                    <strong>$459</strong>
+                    <p>
+                        <img src={shoppingCart} alt="shopping cart icon" />Free Shipping
+                    </p>
+                    <button className="search-result__product__options__button" type="button">
+                        <img src={heart} alt="heart icon" />
+                        WISHLIST
+                    </button>
+                    <button className="default-button" type="button">
+                        <img src={shoppingBag} alt="shopping bag icon" />
+                        ADD TO CART
+                    </button>
+                </div>
+            </div>
+            <div className="search-result__product">
+                <img src={product} alt="product" />
+                <div className="search-result__product__description">
+                    <h2>Apple Watch Series 4 GPS</h2>
+                    <span>By <strong>Apple</strong></span>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+                        a type specimen book.
+                    </p>
+                </div>
+                <div className="search-result__product__options">
+                    <strong>$2499</strong>
+                    <p>
+                        <img src={shoppingCart} alt="shopping cart icon" />Free Shipping
+                    </p>
+                    <button className="search-result__product__options__button" type="button">
+                        <img src={heart} alt="heart icon" />
+                        WISHLIST
+                    </button>
+                    <button className="default-button" type="button">
+                        <img src={shoppingBag} alt="shopping bag icon" />
+                        ADD TO CART
+                    </button>
+                </div>
             </div>
         </div>
     )
