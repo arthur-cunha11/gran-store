@@ -6,7 +6,7 @@ import todo from "../../img/check-square.svg"
 
 export const AppsMenu = () => {
     return (
-        <div className="row apps-menu">
+        <div className="row">
             <h2>APPS</h2>
             <div>
                 <img src={email} alt="email icon" />

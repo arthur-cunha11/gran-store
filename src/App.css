@@ -4,6 +4,11 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+h2,
+p {
+  margin: 0;
+}
+
 .wrapper {
   padding-left: 23px;
   padding-top: 31px;
@@ -14,18 +19,13 @@ body {
   box-shadow: none;
 }
 
-.dashboard-menu {
-  margin-bottom: 45px;
-  margin-top: 45px;
-}
-
 .btn-group-vertical {
   align-items: unset;
   width: 80%;
 }
 
 .btn-group-vertical .row {
-  margin: 45px 0;
+  margin-top: 45px;
 }
 
 .btn-group-vertical .btn {
@@ -37,10 +37,19 @@ body {
   color: #999999;
   font-size: 14px;
   line-height: 36px;
-  margin: 0;
 }
 
-.btn-group-vertical .btn:not(.dashboard-menu .btn) {
+.btn-group-vertical button {
+  align-items: center;
+  display: flex;
+}
+
+.btn-group-vertical p {
+  margin-left: 8px;
+  margin-right: auto;
+}
+
+.btn-group-vertical .btn:not(.btn-group-vertical > div:first-child .btn) {
   font-weight: 600;
 }
 
@@ -54,9 +63,4 @@ body {
 
 .btn-group-vertical .btn[aria-expanded="false"]::after {
   content: url("../src/img/right-arrow.svg");
-}
-
-.apps-menu,
-.ui-elements-menu {
-  margin-bottom: 45px;
 }

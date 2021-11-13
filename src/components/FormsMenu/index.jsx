@@ -10,7 +10,7 @@ export const FormsMenu = () => {
             <h2>FORMS</h2>
             <button className="btn" type="button" data-bs-toggle="collapse" data-bs-target="#form-elements" aria-expanded="false" aria-controls="form-elements">
                 <img src={formElements} alt="form elements icon" />
-                Form Elements
+                <p>Form Elements</p>
             </button>
             <div className="collapse" id="form-elements">
                 <input type="radio" className="btn-check" name="btnradio" id="form-elements-input" autoComplete="off" defaultChecked />

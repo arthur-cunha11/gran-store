@@ -7,11 +7,11 @@ import table from "../../img/grid.svg"
 
 export const UiElementsMenu = () => {
     return (
-        <div className="row ui-elements-menu">
+        <div className="row">
             <h2>UI ELEMENTS</h2>
             <button className="btn" type="button" data-bs-toggle="collapse" data-bs-target="#grid" aria-expanded="false" aria-controls="grid">
                 <img src={grid} alt=" icon" />
-                Grid
+                <p>Grid</p>
             </button>
             <div className="collapse" id="grid">
                 <input type="radio" className="btn-check" name="btnradio" id="grid-input" autoComplete="off" defaultChecked />
@@ -26,7 +26,7 @@ export const UiElementsMenu = () => {
 
             <button className="btn" type="button" data-bs-toggle="collapse" data-bs-target="#card" aria-expanded="false" aria-controls="card">
                 <img src={card} alt=" icon" />
-                Card
+                <p>Card</p>
             </button>
             <div className="collapse" id="card">
                 <input type="radio" className="btn-check" name="btnradio" id="card-input" autoComplete="off" defaultChecked />
@@ -41,7 +41,7 @@ export const UiElementsMenu = () => {
 
             <button className="btn" type="button" data-bs-toggle="collapse" data-bs-target="#components" aria-expanded="false" aria-controls="components">
                 <img src={components} alt=" icon" />
-                Components
+                <p>Components</p>
             </button>
             <div className="collapse" id="components">
                 <input type="radio" className="btn-check" name="btnradio" id="components-input" autoComplete="off" defaultChecked />
