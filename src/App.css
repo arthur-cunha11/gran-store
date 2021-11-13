@@ -4,14 +4,22 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+a,
+a:hover {
+  color: #2c2c2c;
+  text-decoration: none;
+}
+
 h2,
 p {
+  color: #2c2c2c;
   margin: 0;
 }
 
-.wrapper {
-  padding-left: 23px;
-  padding-top: 31px;
+.vertical-menu {
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.170509);
+  padding-left: 35px;
+  padding-top: 35px;
 }
 
 .btn-check:focus + .btn,
@@ -29,8 +37,8 @@ p {
 }
 
 .btn-group-vertical .btn {
+  color: #2c2c2c;
   font-size: 15px;
-  text-align: start;
 }
 
 .btn-group-vertical h2 {
@@ -63,4 +71,74 @@ p {
 
 .btn-group-vertical .btn[aria-expanded="false"]::after {
   content: url("../src/img/right-arrow.svg");
+}
+
+.dashboard {
+  background: #f9f9f9;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.0778245);
+  padding: 30px 35px;
+}
+
+.navbar__custom {
+  align-items: center;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.135216);
+  height: 62px;
+}
+
+.navbar__custom img {
+  cursor: pointer;
+  margin-right: 22px;
+}
+
+.navbar__custom__options {
+  align-items: center;
+  display: flex;
+  font-size: 14px;
+  justify-content: flex-end;
+}
+
+.navbar__custom__options button {
+  background-color: transparent;
+  border: none;
+  color: #2c2c2c;
+  font-size: 14px;
+  margin-right: 28px;
+  outline: none;
+}
+
+.navbar__custom__options span {
+  font-size: 11px;
+}
+
+.breadcrumb__custom {
+  margin: 30px 0 38px 0;
+}
+
+.breadcrumb__custom__links {
+  font-size: 14px;
+  padding: 0;
+}
+
+.breadcrumb__custom__links a:first-child {
+  font-size: 24px;
+}
+
+.breadcrumb__custom__links img {
+  margin: 0 10px;
+}
+
+.breadcrumb__custom__links a img {
+  border-left: 1px solid #979797;
+  padding-left: 10px;
+}
+
+.breadcrumb__custom__settings {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.breadcrumb__custom__settings img {
+  cursor: pointer;
 }

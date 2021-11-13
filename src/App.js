@@ -6,18 +6,18 @@ const App = () => {
   const isMobile = mobileDevice();
 
   return (
-    <div className="wrapper">
+    <>
       <div className="row">
         {!isMobile && (
-          <div className="col-2">
+          <div className="col-2 vertical-menu">
             <VerticalMenu />
           </div>
         )}
-        <div className="col">
+        <div className="col dashboard">
           <Dashboard />
         </div>
       </div>
-    </div>
+    </>
   );
 };
 
