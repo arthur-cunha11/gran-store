@@ -16,6 +16,15 @@ p {
   margin: 0;
 }
 
+.default-button {
+  background: #696969;
+  border-radius: 8px;
+  border: 1px solid #696969;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.135216);
+  color: #ffff;
+  width: 100%;
+}
+
 .vertical-menu {
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.170509);
   padding-left: 35px;
@@ -205,12 +214,64 @@ p {
   margin-left: auto;
 }
 
-.default-button {
-  background: #696969;
-  border-radius: 8px;
-  border: 1px solid #696969;
-  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.135216);
-  color: #ffff;
+.filter button {
   height: 56px;
-  width: 100%;
+}
+
+.search-filter {
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.search-filter .btn {
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 2px 8px rgb(0 0 0 / 14%);
+  margin-right: 5px;
+}
+
+.search-bar input,
+.search-bar input:focus {
+  background: #ffffff;
+  border-radius: 8px;
+  border: none;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.135216);
+  height: 62px;
+}
+
+.search-bar input:focus,
+.search-bar input:active {
+  border: none;
+  outline: none;
+}
+
+.pagination__custom {
+  justify-content: center;
+}
+
+.pagination__custom img {
+  height: 40px;
+}
+
+.pagination__custom nav {
+  width: auto;
+}
+
+.pagination {
+  align-items: center;
+  background: #ededed;
+  border-radius: 20px;
+}
+
+.page-link {
+  color: #2c2c2c;
+  background-color: transparent;
+  border: none;
+}
+
+.page-item.active .page-link {
+  color: #ffff;
+  background-color: #686868;
+  border-color: #686868;
 }

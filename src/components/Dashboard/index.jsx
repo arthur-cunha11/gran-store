@@ -1,5 +1,5 @@
 import React from 'react'
-import { Navbar, BreadCrumbs, Filter } from "../"
+import { BreadCrumbs, Filter, Navbar, Pagination, SearchBar, SearchFilter, SearchResult } from "../"
 
 export const Dashboard = () => {
     return (
@@ -11,9 +11,12 @@ export const Dashboard = () => {
                     <Filter />
                 </div>
                 <div className="col-9">
-
+                    <SearchFilter />
+                    <SearchBar />
+                    <SearchResult />
                 </div>
             </div>
+            <Pagination />
         </>
     )
 }
