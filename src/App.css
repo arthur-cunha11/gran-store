@@ -311,12 +311,25 @@ a:hover {
   margin-top: 110px;
 }
 
-.pagination__custom img {
-  height: 40px;
+.pagination__custom > div > div {
+  background-color: #EDEDED;
+  border-radius: 10px;
+  margin: 0 10px;
 }
 
-.pagination__custom nav {
-  width: auto;
+.pagination__custom p {
+  margin: 0 8px;
+}
+
+.pagination__custom span {
+  background: #686868;
+  border-radius: 10px;
+  color: #ffff;
+  padding: 6px;
+}
+
+.pagination__custom img {
+  height: 40px;
 }
 
 .pagination {
@@ -458,6 +471,14 @@ a:hover {
     margin-right: 8px;
   }
 
+  .navbar__custom__icons {
+    padding-right: 0;
+  }
+
+  .navbar__custom__options {
+    padding-left: 0;
+  }
+
   .navbar__custom__options button {
     margin-right: 10px
   }
@@ -489,6 +510,7 @@ a:hover {
 
   .search-result__product h2,
   .dropdown .btn,
+  .pagination__custom p,
   .result-number {
     font-size: 10px;
   }
