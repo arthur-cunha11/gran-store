@@ -7,11 +7,16 @@ import profile from "../../img/oval.svg"
 import search from "../../img/search.svg"
 import star from "../../img/star.svg"
 import todo from "../../img/check-square.svg"
+import menu from "../../img/menu.svg"
+import { mobileDevice } from "../../utils"
 
 export const Navbar = () => {
+    const isMobile = mobileDevice()
+
     return (
         <div className="row navbar__custom align-items-center">
             <div className="col navbar__custom__icons">
+                {isMobile && <img className="mobile-menu" src={menu} alt="menu icon" />}
                 <img src={todo} alt="todo icon" />
                 <img src={chat} alt="chat icon" />
                 <img src={email} alt="email icon" />
